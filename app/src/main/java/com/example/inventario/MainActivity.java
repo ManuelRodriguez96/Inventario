@@ -93,8 +93,9 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_gallery) {
 
         } else if (id == R.id.nav_slideshow) {
-
+            getSupportFragmentManager().beginTransaction().add(R.id.drawer_layout,new InventarioFragment()).commit();
         } else if (id == R.id.nav_tools) {
+
 
         } else if (id == R.id.nav_share) {
 
